@@ -155,14 +155,14 @@
 			    	}, 500);
 			   }
 
-		    if ( navbar.is(':visible')) {
+		    /*if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
 		    	navbar.attr('aria-expanded', 'false');
 		    	$('.js-colorlib-nav-toggle').removeClass('active');
 		    }
 
 		    event.preventDefault();
-		    return false;
+		    return false;*/
 		});
 
 
