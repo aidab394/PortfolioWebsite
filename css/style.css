@@ -132,11 +132,11 @@ figure {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
-      margin: 0;
+      margin: 1em 0 0 0;
       padding: 0; }
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
-          margin: 0 0 0 0; } }
+          margin: 1em 0 0 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
@@ -193,7 +193,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
@@ -1539,7 +1539,7 @@ body.offcanvas {
   transform: translateX(-50%) translateY(-50%);
   color: #96b9e6;
   font-size: 13px;
-  font-family: Orbitron;
+  font-family: Orbitron, sans-serif;
   letter-spacing: 5px;
   text-align: center;
 }
