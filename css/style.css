@@ -91,16 +91,17 @@ figure {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 5px;
     font-size: 12px;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    text-align: center; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
@@ -124,7 +125,7 @@ figure {
       padding: 0; }
       @media screen and (max-width: 768px) {
         #colorlib-aside #colorlib-main-menu ul {
-          margin: 0 0 2em 0; } }
+          margin: 0 0 0 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
@@ -185,7 +186,7 @@ figure {
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
+    padding: 0 10px;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -395,7 +396,8 @@ body.offcanvas {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: relative; }
+  position: relative; 
+  padding-top: 0px; }
 
 .colorlib-heading {
   font-size: 30px;
