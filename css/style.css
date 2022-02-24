@@ -770,7 +770,10 @@ body.offcanvas {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
-
+.progress-wrap #subtitle {
+  font-size: 18px;
+  font-style: italic;
+}
 .progress {
   height: 6px;
   -webkit-box-shadow: none;
