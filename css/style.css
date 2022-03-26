@@ -771,9 +771,12 @@ body.offcanvas {
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
 
-.progress-wrap #subtitle {
+.col-md-6 #subtitle {
   font-size: 18px;
   font-style: italic;
+  font-family: "Quicksand", Arial, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .progress {
   height: 6px;
